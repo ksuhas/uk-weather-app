@@ -9,8 +9,8 @@ import json
 
 
 def getdata(request):
-    regions = ['UK']
-    Ttypes = ['Tmin']
+    regions = ['UK','England', 'Wales', 'Scotland']
+    Ttypes = ['Tmax', 'Tmin', 'Tmean', 'Sunshine', 'Rainfall']
     months = ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC']
     try:
         for region in regions:
